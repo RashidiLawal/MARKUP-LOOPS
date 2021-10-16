@@ -1,0 +1,141 @@
+html, body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Avenir', Ubuntu, 'Segoe ui', -apple-system, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing:border-box;
+}
+
+:root {
+    --blackback: rgb(0 0 0);
+   --lightgreen: rgb(22 149 123);
+   --lightgrey: rgb(234 233 235);
+   --whiteback: rgb(255 255 255);
+   --greyshadow: rgb(241 239 241);
+   --greytext: rgb(176 177 179);
+   --darktext: rgb(3 0 8);
+   --darkgrey: rgb(112 108 110);
+   --darkergrey: rgb(89 81 75);
+   --lightdark: rgb(5 7 36);
+}
+
+body {
+    background-color: var(--blackback);
+    position: relative;
+}
+
+.hood {
+    background-color: var(--lightgreen);
+    width: 90%;
+    height: 100vh;
+    position: absolute;
+    margin-left: 3.3rem;
+}
+#container {
+    display: grid;
+    grid-template-columns: 40vw;
+    grid-template-rows: 6vh 6vh 6vh 6vh 6vh;
+    background-color: var(--whiteback);
+    border-radius: 3px;
+    width: 43vw;
+    height: 21rem;
+    align-items: center;
+    margin: 5rem 15rem;
+    overflow: hidden;
+}
+
+p.first {
+    display: inline-block;
+    color: var(--darktext);
+    font-size: 1.05rem;
+    font-weight: bold;
+    margin-left: 3.1rem;
+    margin-top: 5rem;
+
+}
+img {
+    height: 1.2rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+    
+}
+.logo {
+    display: inline-block;
+    border: 1px solid var(--lightgrey);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 12.3rem;
+    margin-top: 1rem;
+}
+.logo:hover {
+    box-shadow: 0px 0px 2px 4px var(--greyshadow);
+}
+
+div.para1 {
+    color: var(--greytext);
+    font-size: 0.62rem;
+    font-weight: bold;
+    margin-left: 3.1rem;
+    margin-top: 3.5rem;
+}
+span.span1 {
+  color: var(--lightdark);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 10.3rem;
+}
+div.para2 {
+    color: var(--darkergrey);
+    font-size: 0.68rem;
+    font-weight: bold;
+    margin-top: 4.5rem;
+    margin-left: 3.1rem;
+    
+}
+
+span.span2 {
+color: var(--lightdark);
+font-size: 1rem;
+margin-left: 11rem;
+}
+
+div.para3 {
+    color: var(--darkergrey);
+    font-size: 0.68rem;
+    font-weight: bold;
+    margin-left: 3.1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+span.span3 {
+color: var(--lightdark);
+font-size: 1rem;
+margin-left: 16.5rem;
+
+
+}
+
+img.bike {
+    height: 19.5rem;
+    position: relative;
+    margin-top:23.6rem;
+}
+
+div.para4 {
+ color: var(--darkergrey);
+ font-size: 0.9rem;
+ font-weight: 700;
+ margin-left: 3.1rem;
+ margin-top: 1.7rem;
+ margin-bottom: 25rem;
+
+}
+
+
+
+
+

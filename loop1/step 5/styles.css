@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir', Ubuntu, 'Segoe ui', -apple-system, sans-serif;
+}*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+
+}
+
+body {
+    background-image: url("./img/background.jpg");
+    background-size: cover;
+    overflow-y: auto;
+    overflow-x: auto;
+}
